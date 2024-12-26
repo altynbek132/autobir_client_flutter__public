@@ -1,0 +1,211 @@
+name: autobir
+description: "Mobile application for car washing services."
+publish_to: "none"
+version: 0.1.0+11
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependency_overrides:
+  mobx:
+    git:
+      url: https://github.com/altynbek132/mobx.dart
+      path: mobx
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ===================================================== MY UTILS =======================================================
+
+  utils:
+    git:
+      url: https://github.com/altynbek132/flutter_util_packages
+      path: packages/utils
+  # ! overridden
+  mobx: any
+  flutter_mobx:
+    git:
+      url: https://github.com/altynbek132/mobx.dart
+      path: flutter_mobx
+  elementary:
+    git:
+      url: https://github.com/altynbek132/flutter-elementary
+      path: packages/elementary
+  disposing:
+    git:
+      url: https://github.com/altynbek132/dart_disposing
+      path: packages/disposing
+  awesome_extensions:
+    git:
+      url: https://github.com/altynbek132/awesome_extensions
+  l:
+    git: https://github.com/altynbek132/l
+
+  logger: ^2.3.0
+  flutter_screenutil: 5.9.1
+  get_it: ^7.6.7
+  injectable: ^2.4.1
+  provider: ^6.1.2
+  collection: ^1.18.0
+  reactive_forms: ^17.0.1
+  rxdart: ^0.27.7
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  sliver_tools: ^0.2.12
+  permission_handler: ^11.3.1
+  meta: ^1.11.0
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  device_preview: ^1.2.0
+
+  auto_route: ^9.2.0
+  expandable: ^5.0.1
+  flutter_native_splash: ^2.4.0
+  api_client:
+    path: "../packages/api_client"
+  dio: ^5.5.0+1
+  mask_text_input_formatter: ^2.9.0
+  infinite_scroll_pagination: ^4.0.0
+  geolocator: ^12.0.0
+  # todo: remove
+  google_fonts: ^6.2.1
+  pinput: ^4.0.0
+  sliding_up_panel: ^2.0.0+1
+  flutter_slidable: ^3.1.0
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.1
+  yandex_mapkit: ^4.1.0
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  render_metrics: ^2.0.2
+  uuid: ^4.4.0
+  platform_info: ^4.0.2
+  dropdown_button2:
+    git:
+      url: https://github.com/altynbek132/dropdown_button2
+      ref: dev
+  ensure_visible_when_focused: ^1.2.0
+  smooth_page_indicator: ^1.1.0
+  modal_bottom_sheet: ^3.0.0
+  pretty_dio_logger: ^1.3.1
+  firebase_core: ^3.2.0
+  firebase_messaging: ^15.0.3
+  webview_flutter: ^4.8.0
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  map_launcher: ^3.5.0
+
+# ================================================= DEV DEPENDENCIES ===================================================
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  lint_rules:
+    git: https://github.com/altynbek132/lint_rules
+  test: ^1.24.9
+
+  #
+  #
+  mobx_codegen:
+    git:
+      url: https://github.com/altynbek132/mobx.dart.git
+      path: mobx_codegen
+
+  injectable_generator: ^2.6.1
+  build_runner: ^2.4.9
+  mockito: ^5.4.4
+  flutter_gen_runner: ^5.4.0
+  json_serializable: ^6.7.1
+  freezed: ^2.5.2
+
+  auto_route_generator: ^9.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/images/splash/
+    - assets/images/nav_bar/
+    - assets/images/order_history/
+    - assets/images/receipt/
+    - assets/images/preview/
+    - assets/images/add_card/
+    - assets/images/support/
+    - assets/images/payment_methods/
+    - assets/images/profile/
+    - assets/images/car_wash_screen/
+    - assets/images/welcome/
+    - assets/images/home/
+    - assets/images/map/
+    - assets/images/bookmarks/
+    - assets/images/filter/
+    - assets/images/search/
+    - assets/images/notifications/
+    - assets/images/category/
+
+  fonts:
+    - family: Muller
+      fonts:
+        - asset: assets/fonts/Muller/MullerBlack.ttf
+        - asset: assets/fonts/Muller/MullerBlackItalic.ttf
+        - asset: assets/fonts/Muller/MullerBold.ttf
+        - asset: assets/fonts/Muller/MullerBoldItalic.ttf
+        - asset: assets/fonts/Muller/MullerExtraBold.ttf
+        - asset: assets/fonts/Muller/MullerExtraBoldItalic.ttf
+        - asset: assets/fonts/Muller/MullerHairline.ttf
+        - asset: assets/fonts/Muller/MullerHairlineItalic.ttf
+        - asset: assets/fonts/Muller/MullerHeavy.ttf
+        - asset: assets/fonts/Muller/MullerHeavyItalic.ttf
+        - asset: assets/fonts/Muller/MullerLight.ttf
+        - asset: assets/fonts/Muller/MullerLightItalic.ttf
+        - asset: assets/fonts/Muller/MullerMedium.ttf
+        - asset: assets/fonts/Muller/MullerMediumItalic.ttf
+        - asset: assets/fonts/Muller/MullerRegular.ttf
+        - asset: assets/fonts/Muller/MullerRegularItalic.ttf
+        - asset: assets/fonts/Muller/MullerThin.ttf
+        - asset: assets/fonts/Muller/MullerThinItalic.ttf
+        - asset: assets/fonts/Muller/MullerUltraLight.ttf
+        - asset: assets/fonts/Muller/MullerUltraLightItalic.ttf
+
+flutter_gen:
+  # Optional
+  output: lib/gen/
+  # Optional
+  line_length: 80
+
+  # Optional
+  integrations:
+    flutter_svg: true
+    flare_flutter: false
+    rive: false
+
+  assets:
+    # Optional
+    enabled: true
+    outputs:
+      # Optional
+      # Set to true if you want this package to be a package dependency
+      # See: https://flutter.dev/docs/development/ui/assets-and-images#from-packages
+      package_parameter_enabled: false
+      # Optional
+      # Available values:
+      # - camel-case
+      # - snake-case
+      # - dot-delimiter
+      style: dot-delimiter
+
+  fonts:
+    # Optional
+    enabled: true
+
+  colors:
+    # Optional
+    enabled: true
+    # Optional
+    inputs: []

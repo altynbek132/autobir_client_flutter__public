@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="32" cy="32" r="32" fill="#F6F6F6"/>
+<path d="M23.25 29.5H25.75C28.25 29.5 29.5 28.25 29.5 25.75V23.25C29.5 20.75 28.25 19.5 25.75 19.5H23.25C20.75 19.5 19.5 20.75 19.5 23.25V25.75C19.5 28.25 20.75 29.5 23.25 29.5Z" stroke="#6D48FF" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.25 29.5H40.75C43.25 29.5 44.5 28.25 44.5 25.75V23.25C44.5 20.75 43.25 19.5 40.75 19.5H38.25C35.75 19.5 34.5 20.75 34.5 23.25V25.75C34.5 28.25 35.75 29.5 38.25 29.5Z" stroke="#6D48FF" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.25 44.5H40.75C43.25 44.5 44.5 43.25 44.5 40.75V38.25C44.5 35.75 43.25 34.5 40.75 34.5H38.25C35.75 34.5 34.5 35.75 34.5 38.25V40.75C34.5 43.25 35.75 44.5 38.25 44.5Z" stroke="#6D48FF" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.25 44.5H25.75C28.25 44.5 29.5 43.25 29.5 40.75V38.25C29.5 35.75 28.25 34.5 25.75 34.5H23.25C20.75 34.5 19.5 35.75 19.5 38.25V40.75C19.5 43.25 20.75 44.5 23.25 44.5Z" stroke="#6D48FF" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
